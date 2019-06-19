@@ -1,7 +1,7 @@
 # multitrident
 This is an object detection project. What I want to do is to let detector can detect objects of different scales through different branches, so I can detect and show detected objects of different scales in different detect heads. It dosen't need judge scale of objects and show them, because the different branches of network has learn what it small object、what is middle object and what is large object.
 ## network
-![network](https://github.com/wei-yuma/multitrident/tree/master/images/network.png =300x200)
+![network](images/network.png)
 ## performance on voc0712
 ### img_size = 320*320
 
@@ -11,9 +11,18 @@ This is an object detection project. What I want to do is to let detector can de
 | multitrident AP |84.5| 84.4 | 76.9 | 70.0 |63.7|85.0| 87.9|87.5|62.2 |80.4|67.7|83.4|87.4|85.2|81.6|50.9|80.9|76.0|84.6|77.4|
 
 ## demo
+### all output
+![demo1](images/1.png)![demo2](images/2.png)
+![demo3](images/3.png)![demo4](images/4.png)
+![demo5](images/5.png)
 
-![demo1](https://github.com/wei-yuma/multitrident/tree/master/images/1.png =300x200)
-![demo2](https://github.com/wei-yuma/multitrident/tree/master/images/2.png =300x200)
-![demo3](https://github.com/wei-yuma/multitrident/tree/master/images/3.png =300x200)
-![demo4](https://github.com/wei-yuma/multitrident/tree/master/images/4.png =300x200)
-![demo5](https://github.com/wei-yuma/multitrident/tree/master/images/5.png =300x200)
+### only one branch output
+
+all output
+![demo4](images/4.png)
+small object detect branch output
+![demo3-small](images/3-small.png)
+middle object detect branch output
+![demo3-middle](images/3-middle.png)
+large object detect branch output
+![demo3-large](images/3-large.png)
